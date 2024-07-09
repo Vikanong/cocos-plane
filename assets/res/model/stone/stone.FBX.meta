@@ -1,5 +1,5 @@
 {
-  "ver": "2.3.0",
+  "ver": "2.3.13",
   "importer": "fbx",
   "imported": true,
   "uuid": "9cad9c9d-42cc-4a14-a160-dd353bd95c6c",
@@ -12,9 +12,10 @@
       "id": "32630",
       "name": "stone13.mesh",
       "userData": {
-        "gltfIndex": 0
+        "gltfIndex": 0,
+        "triangleCount": 10
       },
-      "ver": "1.1.0",
+      "ver": "1.1.1",
       "imported": true,
       "files": [
         ".bin",
@@ -29,9 +30,10 @@
       "id": "645cc",
       "name": "stone02.mesh",
       "userData": {
-        "gltfIndex": 1
+        "gltfIndex": 1,
+        "triangleCount": 168
       },
-      "ver": "1.1.0",
+      "ver": "1.1.1",
       "imported": true,
       "files": [
         ".bin",
@@ -46,9 +48,10 @@
       "id": "6dfd9",
       "name": "stone03.mesh",
       "userData": {
-        "gltfIndex": 2
+        "gltfIndex": 2,
+        "triangleCount": 114
       },
-      "ver": "1.1.0",
+      "ver": "1.1.1",
       "imported": true,
       "files": [
         ".bin",
@@ -63,9 +66,10 @@
       "id": "375a8",
       "name": "stone04.mesh",
       "userData": {
-        "gltfIndex": 3
+        "gltfIndex": 3,
+        "triangleCount": 16
       },
-      "ver": "1.1.0",
+      "ver": "1.1.1",
       "imported": true,
       "files": [
         ".bin",
@@ -80,9 +84,10 @@
       "id": "ee276",
       "name": "stone05.mesh",
       "userData": {
-        "gltfIndex": 4
+        "gltfIndex": 4,
+        "triangleCount": 88
       },
-      "ver": "1.1.0",
+      "ver": "1.1.1",
       "imported": true,
       "files": [
         ".bin",
@@ -97,9 +102,10 @@
       "id": "f78c4",
       "name": "stone06.mesh",
       "userData": {
-        "gltfIndex": 5
+        "gltfIndex": 5,
+        "triangleCount": 26
       },
-      "ver": "1.1.0",
+      "ver": "1.1.1",
       "imported": true,
       "files": [
         ".bin",
@@ -114,9 +120,10 @@
       "id": "0cbd1",
       "name": "stone07.mesh",
       "userData": {
-        "gltfIndex": 6
+        "gltfIndex": 6,
+        "triangleCount": 18
       },
-      "ver": "1.1.0",
+      "ver": "1.1.1",
       "imported": true,
       "files": [
         ".bin",
@@ -131,9 +138,10 @@
       "id": "dd95a",
       "name": "stone08.mesh",
       "userData": {
-        "gltfIndex": 7
+        "gltfIndex": 7,
+        "triangleCount": 139
       },
-      "ver": "1.1.0",
+      "ver": "1.1.1",
       "imported": true,
       "files": [
         ".bin",
@@ -148,9 +156,10 @@
       "id": "699a3",
       "name": "stone09.mesh",
       "userData": {
-        "gltfIndex": 8
+        "gltfIndex": 8,
+        "triangleCount": 12
       },
-      "ver": "1.1.0",
+      "ver": "1.1.1",
       "imported": true,
       "files": [
         ".bin",
@@ -165,9 +174,10 @@
       "id": "671f5",
       "name": "stone10.mesh",
       "userData": {
-        "gltfIndex": 9
+        "gltfIndex": 9,
+        "triangleCount": 12
       },
-      "ver": "1.1.0",
+      "ver": "1.1.1",
       "imported": true,
       "files": [
         ".bin",
@@ -182,9 +192,10 @@
       "id": "d4e1f",
       "name": "stone11.mesh",
       "userData": {
-        "gltfIndex": 10
+        "gltfIndex": 10,
+        "triangleCount": 48
       },
-      "ver": "1.1.0",
+      "ver": "1.1.1",
       "imported": true,
       "files": [
         ".bin",
@@ -199,9 +210,10 @@
       "id": "de77e",
       "name": "stone12.mesh",
       "userData": {
-        "gltfIndex": 11
+        "gltfIndex": 11,
+        "triangleCount": 20
       },
-      "ver": "1.1.0",
+      "ver": "1.1.1",
       "imported": true,
       "files": [
         ".bin",
@@ -216,9 +228,10 @@
       "id": "ad41d",
       "name": "stone01.mesh",
       "userData": {
-        "gltfIndex": 12
+        "gltfIndex": 12,
+        "triangleCount": 116
       },
-      "ver": "1.1.0",
+      "ver": "1.1.1",
       "imported": true,
       "files": [
         ".bin",
@@ -251,7 +264,7 @@
       "userData": {
         "gltfIndex": 0
       },
-      "ver": "1.0.12",
+      "ver": "1.0.14",
       "imported": true,
       "files": [
         ".json"
@@ -262,7 +275,6 @@
   "userData": {
     "imageMetas": [],
     "legacyFbxImporter": false,
-    "redirect": "9cad9c9d-42cc-4a14-a160-dd353bd95c6c@afe38",
     "assetFinder": {
       "meshes": [
         "9cad9c9d-42cc-4a14-a160-dd353bd95c6c@32630",
@@ -290,7 +302,26 @@
     },
     "fbx": {
       "preferLocalTimeSpan": false,
-      "smartMaterialEnabled": false
+      "smartMaterialEnabled": false,
+      "matchMeshNames": false
+    },
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
     }
   }
 }

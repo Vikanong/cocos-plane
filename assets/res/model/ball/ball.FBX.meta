@@ -1,5 +1,5 @@
 {
-  "ver": "2.3.0",
+  "ver": "2.3.13",
   "importer": "fbx",
   "imported": true,
   "uuid": "4bb38686-7ed9-4277-adde-973da5711422",
@@ -12,9 +12,10 @@
       "id": "97298",
       "name": "ball.mesh",
       "userData": {
-        "gltfIndex": 0
+        "gltfIndex": 0,
+        "triangleCount": 528
       },
-      "ver": "1.1.0",
+      "ver": "1.1.1",
       "imported": true,
       "files": [
         ".bin",
@@ -47,7 +48,7 @@
       "userData": {
         "gltfIndex": 0
       },
-      "ver": "1.0.12",
+      "ver": "1.0.14",
       "imported": true,
       "files": [
         ".json"
@@ -60,9 +61,9 @@
     "legacyFbxImporter": false,
     "allowMeshDataAccess": true,
     "fbx": {
-      "smartMaterialEnabled": true
+      "smartMaterialEnabled": true,
+      "matchMeshNames": false
     },
-    "redirect": "4bb38686-7ed9-4277-adde-973da5711422@8c1b3",
     "assetFinder": {
       "meshes": [
         "4bb38686-7ed9-4277-adde-973da5711422@97298"
@@ -74,6 +75,24 @@
       ],
       "scenes": [
         "4bb38686-7ed9-4277-adde-973da5711422@8c1b3"
+      ]
+    },
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
       ]
     }
   }
